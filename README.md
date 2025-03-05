@@ -24,6 +24,7 @@
 ### Запуск
 
 Сборка: `docker build . -t proxy-gost `
+
 Запуск: `docker run -p 8080:8080 -e STUNNEL_HOST=<TARGET-HOST>:443 -e STUNNEL_HTTP_PROXY=<HTTP-PROXY-HOST> -e STUNNEL_HTTP_PROXY_PORT=<PORT>-e STUNNEL_HTTP_PROXY_CREDENTIALS=<LOGIN:PASS> proxy-gost`
 
 ### Проверка
