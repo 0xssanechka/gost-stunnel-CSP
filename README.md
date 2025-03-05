@@ -1,6 +1,7 @@
 # gost-stunnel-CSP
 
 ### Структура репозитория
+```
 .
 │   Dockerfile
 │
@@ -15,7 +16,7 @@
 │
 └───cprocsp
         linux-amd64_deb.tgz
-
+```
 - CA.crt - сертификат УЦ
 - certificate.pfx - личный сертификат с ключом
 - linux-amd64_deb.tgz - КриптоПро CSP
